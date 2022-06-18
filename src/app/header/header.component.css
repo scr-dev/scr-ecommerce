@@ -1,0 +1,130 @@
+.main-header {
+    padding: 10px 0px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 40px;
+}
+
+.main-header__title {
+    font-size: 45px;
+    letter-spacing: -1.5px;
+    cursor: pointer;
+}
+
+.main-header__title--blue {
+    color: var(--blue);
+}
+
+.main-header__title--orange {
+    color: var(--orange);
+}
+
+.main-header__menu ul, div {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.main-header__menu a {
+    padding: 10px 10px;
+    color: var(--gray);
+    font-weight: 400;
+    font-size: 22px;
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+    margin-left: 3px;
+}
+
+.main-header__menu a:hover {
+    background-color: var(--blue);
+    color: #fff;
+}
+
+.container-menu {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    flex: 1;
+}
+
+.bdage-carrinho {
+    background-color: var(--dark-blue);
+    padding: 5px 10px;
+    border-radius: 4px;
+    color: white;
+}
+
+.search-form {
+    height: 44px;
+    display: flex;
+}
+
+
+
+.search-form input {
+    box-sizing: border-box;
+    height: 56px;
+    padding: 20px;
+    flex: 1;
+    background-color: var(--gray-2);
+    color: var(--gray);
+    border: none;
+    transition: all .3s ease-in-out;
+    font-size: 22px;
+}
+
+.search-form input:focus {
+    background-color: var(--gray);
+    outline: none;
+    color: black;
+}
+
+.search-form button {
+    width: 56px;
+    height: 56px;
+    background-color: var(--blue);
+    border: none;
+    color: #fff;
+    font-size: 22px;
+}
+
+.fa-cart-shopping {
+    color: var(--orange);
+}
+
+.s-m {
+    margin-top: -13px;
+}
+
+.s-m a {
+    display: inline-flex;   
+    background: var(--blue);
+    color: var(--orange);    
+    margin: 6px;  
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+   
+}
+
+.s-m a:hover{ 
+    background: var(--dark-blue);
+    color: white;
+    margin: 5px;
+}
+
+.s-m a i {
+    transition: 00.4s all;
+}
+
+.s-m a:hover {
+    transform: scale(1.6) rotate(25deg);
+}
+
+
+
+
+
+
