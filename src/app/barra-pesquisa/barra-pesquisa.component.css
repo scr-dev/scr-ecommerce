@@ -1,0 +1,47 @@
+
+@media screen and (max-width: 760px){
+    .search-form input{
+        height: 5px !important;
+        margin-bottom: 20px;
+        border: 1px solid rebeccapurple;
+    }
+}
+
+
+/* ---------------------------------------------------- */
+
+
+
+.search-form {
+    height: 44px;
+    display: flex;
+}
+
+
+
+.search-form input {
+    box-sizing: border-box;
+    height: 56px;
+    padding: 20px;
+    flex: 1;
+    background-color: var(--gray-2);
+    color: var(--gray);
+    border: none;
+    transition: all .3s ease-in-out;
+    font-size: 22px;
+}
+
+.search-form input:focus {
+    background-color: var(--gray);
+    outline: none;
+    color: black;
+}
+
+.search-form button {
+    width: 56px;
+    height: 56px;
+    background-color: var(--blue);
+    border: none;
+    color: #fff;
+    font-size: 22px;
+}
