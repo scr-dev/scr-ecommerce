@@ -21,7 +21,8 @@
     color: var(--orange);
 }
 
-.main-header__menu ul, div {
+.main-header__menu ul,
+div {
     display: flex;
     justify-content: flex-end;
 }
@@ -98,18 +99,18 @@
 }
 
 .s-m a {
-    display: inline-flex;   
+    display: inline-flex;
     background: var(--blue);
-    color: var(--orange);    
-    margin: 6px;  
+    color: var(--orange);
+    margin: 6px;
     border-radius: 50px;
     justify-content: center;
     align-items: center;
     transition: 0.4s;
-   
+
 }
 
-.s-m a:hover{ 
+.s-m a:hover {
     background: var(--dark-blue);
     color: white;
     margin: 5px;
@@ -122,9 +123,3 @@
 .s-m a:hover {
     transform: scale(1.6) rotate(25deg);
 }
-
-
-
-
-
-

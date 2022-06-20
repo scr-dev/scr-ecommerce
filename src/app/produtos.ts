@@ -13,7 +13,7 @@ export interface IProdutoCarrinho extends IProduto {
 }
 
 export const produtos: IProduto[] = [
-    
+
     { id: 1, descricao: "Bruna Gamer", preco: 11.00, descricaoPreco: "À vista no PIX", imagem: "/assets/mouse-3.jpg", quatidadeEstoque: 20 },
     { id: 2, descricao: "Monitor muito bom", preco: 1200.50, descricaoPreco: "À vista no PIX", desconto: 2000.00, imagem: "/assets/monitor-1.jpg", quatidadeEstoque: 10 },
     { id: 3, descricao: "Teclado excelente", preco: 749.99, descricaoPreco: "À vista no PIX", imagem: "/assets/teclado-1.jpg", quatidadeEstoque: 10 },

@@ -8,9 +8,9 @@ describe('NaoEncontradaComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ NaoEncontradaComponent ]
+      declarations: [NaoEncontradaComponent]
     })
-    .compileComponents();
+      .compileComponents();
 
     fixture = TestBed.createComponent(NaoEncontradaComponent);
     component = fixture.componentInstance;
